@@ -3,6 +3,16 @@ Optical design is a truly fascinating field, which combines the science of bendi
 
 This project focuses on developing a complete workflow for designing, building and testing optical systems using only open-source tools and commercial off-the-shelf components. The optical design, image-quality analysis and assembly tolerancing are modeled using **[Optiland](https://github.com/HarrisonKramer/optiland)**, an open-source optical design and simulation package for Python. Some of the image quality testing is done using **[MTFMapper](https://sourceforge.net/projects/mtfmapper/)**. Commercial off-the-shelf components already provide some room to experiment with simple combinations of lenses and optomechanics. Although they might only provide limited options for glass selection, they already a basis to excersise some creativity in component selection, wherein the constraints lead to some interesting design consequences. In the end, a variety of designs that are 'good enough' can be comfortably achieved. 
 
-In this project, a Petzval-inspired portrait lens has been designed and built with two achromats from Thorlabs. The entire workflow including the design and tolerancing are 
+In this project, a Petzval-inspired portrait lens has been designed and built with two achromats from Thorlabs. The Jupyter notebooks contain the complete reproducible workflow, including the optical prescription, optimization, mechanical constraints, image-quality analysis and tolerancing. The sample images and the design files are included as well. 
 
-Beautifully-Aberrated/ │ ├── README.md │ ├── notebooks/ │ └── DIY_Portrait_Lens_Optiland.ipynb │ ├── images/ │ └── ... │ └── README assets / supporting files
+Status
+
+🚧 Work in progress
+
+The optical model and first-order tolerance analysis are complete. A simple slant-edge MTF test was performed to characterize the performance of the lens. The next stages are further characterization of the assembled lens and comparison between simulated and measured image quality. Moreover, the results from simulations in Optiland will be compared to the results from Zemax OpticStudio as an attempt to benchmark Optiland.
+
+Acknowledgements
+Thanks to
+1. Kramer Harrison (Optiland) for the extensive feedback and inputs for the whole project
+2. Ronian Siew for inspiring to take up on this DIY Lens project
+3. Christoph Jusko for kindly providing the Sony A6000 camera used in this project
