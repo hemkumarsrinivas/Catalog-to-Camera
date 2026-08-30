@@ -1,14 +1,15 @@
-# Petzvalish
+# The journey of a lens from the catalog to the camera
 ### Designing a DIY portrait lens from catalog achromats with Optiland
 
-What happens if, instead of trying to eliminate every optical aberration, we deliberately keep some of them?
+Optical design is a truly fascinating field, which combines the science of bending light with artistic thinking. It requires a fusion of precision with practicality to achieve a functioning end-product. For decades, optical design has been assisted with the help of rigorous calculations, with softwares simplifying this process significantly over the last couple of decades. However, the field still remains esoteric and inaccessible to most people, due to not only the inherent complexity but also the high-costs associated with commercial softwares. This has posed a significant barrier for many, including students, non-academic/independent researchers and hobbyists. Thankfully, we finally have open-source tools that are sophisticated enough to rival some of the commercial software, at least for some of the simpler applications. 
 
-**Beautifully Aberrated** is a DIY portrait-lens project built around that idea. The lens uses two commercially available 2-inch achromatic doublets, an adjustable iris, and off-the-shelf optomechanical components to create a roughly 90 mm portrait lens for Sony APS-C mirrorless cameras.
+This repo focuses on developing complete workflows for designing, building and testing optical systems using only open-source tools and commercial off-the-shelf components. The optical design, image-quality analysis and assembly tolerancing are modeled using **[Optiland](https://github.com/HarrisonKramer/optiland)**, an open-source optical design and simulation package for Python. 
+
+The lens uses two commercially available 2-inch achromatic doublets, an adjustable iris, and off-the-shelf optomechanical components to create a roughly 90 mm portrait lens for Sony APS-C mirrorless cameras.
 
 The goal was not to reproduce the performance of a modern, highly corrected photographic lens. Instead, the design prioritizes useful central sharpness while allowing substantial off-axis aberrations to remain and contribute to the character of the image.
 
-The optical design, mechanical constraints, image-quality analysis, and assembly tolerancing were modeled using **[Optiland](https://github.com/HarrisonKramer/optiland)**, an open-source optical design and simulation package for Python.
-
+, 
 ---
 
 ## The idea
