@@ -6,7 +6,9 @@ title: From the Catalog to the Camera
 # Introduction
 Cameras and lenses have evolved continuously over the last few decades, producing increasingly high-quality images that have helped capture several precious moments for eternity. When photography was at its infancy in the 19th century, every little innovation in optic design resulted a drastic leap in image quality. At a time, when clicking a portrait meant that the subject had to stay still for several seconds or even minutes, a lens that was 'fast' enough to capture sufficient light within a short span of time meant exponential progress. It was around this time that Joseph Petzval came up with his design using aberration theory, which laid the foundation for modern optic design. 
 
-This article presents a DIY optical design project based entirely on off-the-shelf components. The project explores the design and construction of a Petzval-like portrait lens intended to reproduce characteristic rendering effects such as swirly bokeh. Modern photographic lenses are generally designed to minimize optical aberrations and maintain high image quality across the entire field of view. In contrast, the Petzval lens prioritizes a large aperture while leaving certain off-axis aberrations, particularly field curvature and astigmatism, comparatively uncorrected, contributing to its distinctive rendering. Inspired by $\textbf{Ronian Siew}$ (https://www.youtube.com/shorts/FY8pygPwD04) , the objective of this project is therefore not to outperform a modern prime lens, but to recreate some of this characteristic behaviour using commercially available optical components and open-source optical design tools.
+This article presents a DIY optical design project based entirely on off-the-shelf components. The project explores the design and construction of a Petzval-like portrait lens intended to reproduce characteristic rendering effects such as swirly bokeh. Modern photographic lenses are generally designed to minimize optical aberrations and maintain high image quality across the entire field of view. In contrast, the Petzval lens prioritizes a large aperture while leaving certain off-axis aberrations, particularly field curvature and astigmatism, comparatively uncorrected, contributing to its distinctive rendering. 
+
+Inspired by $\textbf{Ronian Siew}$ (https://www.youtube.com/shorts/FY8pygPwD04), the objective of this project is therefore not to outperform a modern prime lens, but to recreate some of this characteristic behaviour using commercially available optical components and open-source optical design tools.
 
 <figure style="text-align:center;">
     <img src="images/Petzval_sketch.png" width="400">
@@ -155,7 +157,7 @@ Having finalized the mechanical design, the distance between the elements is sig
 
 The optimal RMS spot size is found when the distance to the iris aperture is ~38.9 mm. The through focus spot-diagram indicates however, that the geometrical radius of the spot diagram is the least at about 38.6 mm. This is also confirmed by looking at the MTF curves while keeping the image plane in these the two positions. The MTF curve for the on-axis field has an MTF50 of about 12 lp/mm and shows almost the same shape as it was when the front and rear groups were placed equidistant from the iris.     
 <figure style="text-align:center;">
-    <img src="images/MTF_Curve_Best_Focus.png" width="800">
+    <img src="images/MTF_Curve_Best_focus.png" width="800">
     <figcaption>
         <b>Figure 9.</b> MTF curves at the best focus
     </figcaption>
