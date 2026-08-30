@@ -1,18 +1,27 @@
-# From the catalog to the camera
-Optical design is a truly fascinating field, which combines the science of bending light with artistic thinking. It requires a fusion of precision with practicality to achieve a functioning end-product. For decades, optical design has been assisted by rigorous mathematical calculations, with softwares simplifying this process significantly over the last couple of decades. However, the field still remains esoteric and inaccessible to most people, due to not only the inherent complexity but also the high-costs associated with commercial softwares. This has posed a significant barrier for many, including students, non-academic/independent researchers and hobbyists. Thankfully, we finally have open-source tools that are sophisticated enough to rival some of the commercial software, at least for some of the simpler applications. 
+# From the Catalog to the Camera
 
-This project focuses on developing a complete workflow for designing, building and testing optical systems using only open-source tools and commercial off-the-shelf components. The optical design, image-quality analysis and assembly tolerancing are modeled using **[Optiland](https://github.com/HarrisonKramer/optiland)**, an open-source optical design and simulation package for Python. Some of the image quality testing is done using **[MTFMapper](https://sourceforge.net/projects/mtfmapper/)**. Commercial off-the-shelf components already provide some room to experiment with simple combinations of lenses and optomechanics. Although they might only provide limited options for glass selection, they already a basis to excersise some creativity in component selection, wherein the constraints lead to some interesting design consequences. In the end, a variety of designs that are 'good enough' can be comfortably achieved. 
+Optical design is a fascinating field that combines the science of bending light with creative thinking. It requires a balance of precision and practicality to turn an optical concept into a functioning system. While sophisticated software has made optical design considerably more accessible, the field still remains somewhat esoteric — not only because of its inherent complexity, but also because of the high cost of commercial optical design software. This can be a significant barrier for students, independent researchers, and hobbyists.
 
-In this project, a Petzval-inspired portrait lens has been designed and built with two achromats from Thorlabs. The Jupyter notebooks contain the complete reproducible workflow, including the optical prescription, optimization, mechanical constraints, image-quality analysis and tolerancing. The sample images and the design files are included as well. 
+Thankfully, increasingly capable open-source tools are beginning to lower this barrier.
 
-Status
+This project explores a complete workflow for **designing, building, and testing an optical system using open-source tools and commercial off-the-shelf components**. The optical design, image-quality analysis, and assembly tolerancing are performed using [**Optiland**](https://github.com/HarrisonKramer/optiland), an open-source optical design and simulation package for Python. Experimental image-quality testing is also performed using [**MTF Mapper**](https://sourceforge.net/projects/mtfmapper/).
 
-🚧 Work in progress
+Commercial off-the-shelf optical components provide an interesting playground for this approach. Although the available glass types, curvatures, and focal lengths are constrained by the component catalog, these constraints themselves make component selection an interesting design problem. With some creativity, it is possible to arrive at optical systems that are not necessarily perfect, but are nevertheless *good enough* for their intended purpose.
 
-The optical model and first-order tolerance analysis are complete. A simple slant-edge MTF test was performed to characterize the performance of the lens. The next stages are further characterization of the assembled lens and comparison between simulated and measured image quality. Moreover, the results from simulations in Optiland will be compared to the results from Zemax OpticStudio as an attempt to benchmark Optiland.
+As a demonstration, I designed and built a **Petzval-inspired portrait lens using two catalog achromats from Thorlabs**. The Jupyter notebooks in this repository contain the reproducible workflow, including the optical prescription, optimization, mechanical constraints, image-quality analysis, and assembly tolerancing. Sample photographs and relevant design files are also included.
 
-Acknowledgements
-Thanks to
-1. Ronian Siew for inspiring to take up on this DIY Lens project (https://www.youtube.com/shorts/FY8pygPwD04)
-2. Kramer Harrison (Optiland) for all the Optiland-related feedback and inputs
-3. Christoph Jusko for kindly providing the Sony A6000 camera used in this project
+## Status
+
+🚧 **Work in progress**
+
+The optical model and first-order tolerance analysis are complete, and a simple slant-edge MTF measurement has been performed to characterize the assembled lens.
+
+The next steps are further experimental characterization and a comparison between simulated and measured image quality. The Optiland simulation results will also be compared with results from Zemax OpticStudio as a small benchmark of the open-source workflow.
+
+## Acknowledgements
+
+Thanks to:
+
+1. **Ronian Siew**, whose DIY lens project inspired me to try building one myself ([video](https://www.youtube.com/shorts/FY8pygPwD04)).
+2. **Harrison Kramer**, developer of Optiland, for his feedback and input on Optiland-related questions.
+3. **Christoph Jusko**, for kindly providing the Sony A6000 camera used in this project.
