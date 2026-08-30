@@ -27,7 +27,7 @@ A strong background blur is achieved usually by having a very shallow depth of f
 
 If the effective focal length however is increased to 80-100 mm, then a compromise can be met with the three competing requirements. Moreover, a quick look at the lens catalogs of most vendors also suggests there are plenty of options to choose from to achieve this focal length range. 
 
-To get an initial estimate of the various sizes and distances, we can approximate the lenses to be used as thin lenses. With this in mind, if we take f=90 mm as the desired focal length and f/2.5 as the desired aperture, we can calculate the entrance pupil diameter with the formula $$ F_{number} = \frac{Effective Focal Length}{Entrance Pupil Diameter} $$ to be $\textbf{36 mm}$. 
+To get an initial estimate of the various sizes and distances, we can approximate the lenses to be used as thin lenses. With this in mind, if we take f=90 mm as the desired focal length and f/2.5 as the desired aperture, we can calculate the entrance pupil diameter with the formula $ F_{number} = \frac{Effective Focal Length}{Entrance Pupil Diameter} $ to be $\textbf{36 mm}$. 
 
 ## Identifying possible lenses 
 To have an entrance pupil diameter of 36 mm, the front group must have a clear aperture of at least 40 mm. 2-inch lenses make the perfect choice for this reason, considering their easy availability along with plenty of mounting options.
