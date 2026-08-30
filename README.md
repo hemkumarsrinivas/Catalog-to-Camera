@@ -10,10 +10,6 @@ Commercial off-the-shelf optical components provide an interesting playground fo
 
 As a demonstration, I designed and built a **Petzval-inspired portrait lens using two catalog achromats from Thorlabs**. The Jupyter notebooks in this repository contain the reproducible workflow, including the optical prescription, optimization, mechanical constraints, image-quality analysis, and assembly tolerancing. Sample photographs and relevant design files are also included.
 
-![Uploading Camera_with_Lens.png…]()
-
-
-
 ## Status
 
 🚧 **Work in progress**
