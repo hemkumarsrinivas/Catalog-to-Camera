@@ -22,6 +22,6 @@ The next steps are further experimental characterization and a comparison betwee
 
 Thanks to:
 
-1. **Ronian Siew**, whose DIY lens project inspired me to try building one myself ([video](https://www.youtube.com/shorts/FY8pygPwD04)).
+1. **Ronian Siew**, who inspired me to try building one myself ([video](https://www.youtube.com/shorts/FY8pygPwD04)).
 2. **Harrison Kramer**, developer of Optiland, for his feedback and input on Optiland-related questions.
 3. **Christoph Jusko**, for kindly providing the Sony A6000 camera used in this project.
