@@ -41,7 +41,7 @@ While this does narrow down the choice of focal lengths for the achromats, it st
 <figure style="text-align:center;">
     <img src="images/Paraxial_model.png" width="800">
     <figcaption>
-        <b>Figure 2.</b> Paraxial layout of the Petzval-inspired lens .
+        <b>Figure 2.</b> Paraxial layout of the Petzval-inspired lens
     </figcaption>
 </figure>
 
@@ -174,7 +174,7 @@ For every Monte Carlo realization, three quantities are evaluated at the on-axis
 <figure style="text-align:center;">
     <img src="images/tolerance_rms_spot_radius.png" width="400">
     <figcaption>
-        <b>Figure 10.</b> Distribution of the on-axis RMS spot radius for the Monte Carlo assemblies.
+        <b>Figure 10.</b> Distribution of the on-axis RMS spot radius for the Monte Carlo assemblies
     </figcaption>
 </figure>
 
@@ -183,7 +183,7 @@ The RMS spot-radius distribution broadens as a result of the group misalignments
 <figure style="text-align:center;">
     <img src="images/tolerance_ast_coma_magnitude.png" width="600">
     <figcaption>
-        <b>Figure 11.</b> Distribution of the on-axis astigmatism and coma magnitudes.
+        <b>Figure 11.</b> Distribution of the on-axis astigmatism and coma magnitudes
     </figcaption>
 </figure>
 
@@ -192,7 +192,7 @@ The astigmatism magnitude remains close to zero for a large fraction of the simu
 <figure style="text-align:center;">
     <img src="images/tolerance_sensitivity.png" width="600">
     <figcaption>
-        <b>Figure 12.</b> Correlation map between the sampled group misalignments and the resulting aberration metrics.
+        <b>Figure 12.</b> Correlation map between the sampled group misalignments and the resulting aberration metrics
     </figcaption>
 </figure>
 
@@ -205,14 +205,14 @@ To quantify the imaging performance of the lens, the simulated MTF was compared 
 <figure style="text-align:center;">
     <img src="images/Slant_Edge_MTF_Test_edges.png" width="600">
     <figcaption>
-        <b>Figure 13.</b> Single-sheet slanted-edge target used for the near-axis MTF measurement.
+        <b>Figure 13.</b> Single-sheet slanted-edge target used for the near-axis MTF measurement
     </figcaption>
 </figure>
 
 <figure style="text-align:center;">
     <img src="images/MTF_test_result_3m.png" width="600">
     <figcaption>
-        <b>Figure 14.</b> Slanted-edge MTF result obtained with MTF Mapper at an object distance of approximately 3 m.
+        <b>Figure 14.</b> Slanted-edge MTF result obtained with MTF Mapper at an object distance of approximately 3 m
     </figcaption>
 </figure>
 
@@ -245,7 +245,7 @@ In the close-up plant image, the background contains fewer discrete highlights a
 <figure style="text-align:center;">
     <img src="images/Portrait.jpg" width="500">
     <figcaption>
-        <b>Figure 17.</b> An example portrait image, demonstrating useful central sharpness together with a soft, characterful background.
+        <b>Figure 17.</b> An example portrait image, demonstrating useful central sharpness together with a soft, characterful background
     </figcaption>
 </figure>
 The portrait is a useful counterpoint to the more obvious bokeh examples. The swirling effect is visible albeit with some restraint. The face remains well defined while the foliage behind it is strongly suppressed and gradually develops directional blur towards the image periphery. The aberrations hence contribute to subject separation without overwhelming the portrait. In all the images, the vignetting seems to be moderate and the subjects are well exposed thanks to the large aperture. 
