@@ -132,6 +132,7 @@ The assembled lens, hence looks as follows.
     <img src="images/Camera_with_Lens.png" width="500">
     <figcaption>
         <b>Figure 6.</b> The assembled lens attached to the camera, with the helicoid in a fully-retracted position (above) and fully extended position (below)
+    </figcaption>
 </figure>
 
 # Evaluation of Optical performance
@@ -157,6 +158,7 @@ The optimal RMS spot size is found when the distance to the iris aperture is ~38
     <img src="images/MTF_Curve_Best_Focus.png" width="800">
     <figcaption>
         <b>Figure 9.</b> MTF curves at the best focus
+    </figcaption>
 </figure>
 
 A paraxial analysis of the system however results in an image-space f-number of 1.8 with an entrance pupil diameter of almost approximately 50 mm. In addition, while looking at the ray-tracing diagrams for the system after optimization, it appears as though the front group lens itself might be acting as the limiting aperture, even for the on-axis field.
