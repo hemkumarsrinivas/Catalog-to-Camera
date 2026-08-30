@@ -3,4 +3,6 @@ Optical design is a truly fascinating field, which combines the science of bendi
 
 This project focuses on developing a complete workflow for designing, building and testing optical systems using only open-source tools and commercial off-the-shelf components. The optical design, image-quality analysis and assembly tolerancing are modeled using **[Optiland](https://github.com/HarrisonKramer/optiland)**, an open-source optical design and simulation package for Python. Some of the image quality testing is done using **[MTFMapper](https://sourceforge.net/projects/mtfmapper/)**. Commercial off-the-shelf components already provide some room to experiment with simple combinations of lenses and optomechanics. Although they might only provide limited options for glass selection, they already a basis to excersise some creativity in component selection, wherein the constraints lead to some interesting design consequences. In the end, a variety of designs that are 'good enough' can be comfortably achieved. 
 
+In this project, a Petzval-inspired portrait lens has been designed and built with two achromats from Thorlabs. The entire workflow including the design and tolerancing are 
 
+Beautifully-Aberrated/ │ ├── README.md │ ├── notebooks/ │ └── DIY_Portrait_Lens_Optiland.ipynb │ ├── images/ │ └── ... │ └── README assets / supporting files
