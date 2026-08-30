@@ -13,6 +13,6 @@ The optical model and first-order tolerance analysis are complete. A simple slan
 
 Acknowledgements
 Thanks to
-1. Kramer Harrison (Optiland) for the extensive feedback and inputs for the whole project
-2. Ronian Siew for inspiring to take up on this DIY Lens project (https://www.youtube.com/shorts/FY8pygPwD04)
+1. Ronian Siew for inspiring to take up on this DIY Lens project (https://www.youtube.com/shorts/FY8pygPwD04)
+2. Kramer Harrison (Optiland) for all the Optiland-related feedback and inputs
 3. Christoph Jusko for kindly providing the Sony A6000 camera used in this project
