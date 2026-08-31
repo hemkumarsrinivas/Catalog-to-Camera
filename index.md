@@ -247,7 +247,7 @@ The flower scene is the clearest demonstration of the swirly character. Close to
 In the close-up plant image, the background contains fewer discrete highlights and the swirl is not visible. Here, the distance between the subject and the background is significantly larger than the object distance, making it very difficult to see any swirl in the bokeh, since the off-axis fields are strongly defocussed. This illustrates an important aspect of the lens: the unusual rendering is strongest when the scene provides sufficient background structure for the field-dependent aberrations to become visible.
 
 <figure style="text-align:center;">
-    <img src="images/Portrait.jpg" width="500">
+    <img src="images/Portrait.jpg" width="350">
     <figcaption>
         <b>Figure 17.</b> An example portrait image, demonstrating useful central sharpness together with a soft, characterful background
     </figcaption>
